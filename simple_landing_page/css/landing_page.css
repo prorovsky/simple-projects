@@ -1,0 +1,37 @@
+body {
+    /*background: url( https://images.unsplash.com/photo-1468853692559-fc594e932a2d?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&s=7a9cae0a943448b1192cfd1b3f4f8b8c);*/
+    background-image: url("../img/marriage_back.jpg");
+ /* другие варианты: 
+ https://images.unsplash.com/photo-1470322346096-ecab3914cab7?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&s=83863ba23662871baf6434c6000e00bd
+ https://images.unsplash.com/photo-1468853692559-fc594e932a2d?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&s=7a9cae0a943448b1192cfd1b3f4f8b8c
+ https://images.unsplash.com/photo-1430806746135-4c9775bfea07?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&s=f98a2e705cc92fdba353e0d973176aff
+ */
+    background-size: cover;
+    background-position: center;
+    font-family: 'Lobster', cursive;
+    color: whitesmoke;
+}
+
+html {
+    height: 100%;
+}
+
+#content {
+    text-align: center;
+    padding-top: 40%;
+    text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4),
+                 0px 8px 13px rgba(0, 0, 0, 0.1),
+                 0px 18px 23px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 5em;
+}
+
+hr {
+    width: 650px;
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    width: 80%;
+}
